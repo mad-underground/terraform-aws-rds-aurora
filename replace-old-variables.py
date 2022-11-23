@@ -7,6 +7,11 @@ files_to_process = [
         'source_file': 'main.tf.orig',
         'destination_file': 'main.tf',
         'variable_name': 'aurora_db'
+    },
+    {
+        'source_file': 'outputs.tf.orig',
+        'destination_file': 'outputs.tf',
+        'variable_name': 'aurora_db'
     }
 ]
 
